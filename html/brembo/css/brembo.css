@@ -1,0 +1,624 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************/
+/*******common css*************/
+
+ 
+/******* fonts *********/
+@import url('../fonts/stylesheet_oswald.css');
+@import url('../fonts/stylesheet_roboto.css');   
+/******* fonts *********/
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.gray{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.zoom{
+   transform: scale(1.07);
+}
+
+
+.margin_auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.no_padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.no_padd_left{
+    padding-left: 0px;
+}
+
+h1{
+    color: #585858;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h5{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h6{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none !important;
+    color: #333;
+}
+
+.big_caps{
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.form-control:focus, .form-select:focus, .accordion-button:focus, .btn:focus{
+    box-shadow: none;
+}
+
+ol, ul {
+    padding-left: 1rem;
+}
+
+.padding_sec{
+    background-color: #fff;
+    padding: 36px;
+    border-radius: 10px;
+    z-index: 9;
+    position: relative;
+}
+
+/* .overlap_sec{
+    margin-top: -70px;
+} */
+
+.overlap_sec{
+    margin-top: 20px;
+}
+
+.border_right{
+    border-right: 2px solid #ffffff;
+}
+
+.main_btn{
+    padding: 10px 22px;
+    background-color: #e43038;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.main_btn:hover{
+    background-color: #333333;
+    color: #fff;
+}
+
+
+
+
+/*******common css*************/
+/******************************/
+
+/* Header styles */
+.main_header, .inner_header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: center;
+}
+
+.header_title{
+    margin-top: -35px;
+}
+
+.top_logo img{
+    width: 200px;
+}
+
+.inner_header .header_left_img img{
+    width: 130px !important;
+}
+
+.inner_header .top_logo img {
+    width: 180px;
+}
+
+/* Login CSS */
+.login_left{
+    padding-right: 198px;
+    height: 100vh;
+}
+
+.login_left p{
+    font-size: 15px;
+}
+
+.main_form, .dashboard_forms{
+    font-size: 15px;
+    width: 100%;
+}
+
+.dashboard_forms .form-label{
+    margin-bottom: 0px;
+}
+
+.form-check-input:checked {
+    background-color: #e43038;
+    border-color: #e43038;
+}
+
+.form-check-input:checked:focus {
+    box-shadow: none;
+}
+
+.main_form .form-control, .main_form .form-select{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.main_form .form-select{
+    background-image: url('../images/select_arrow.svg') !important;
+}
+
+.main_form .form-select option{
+    color: #333333;
+}
+
+.main_form .form-control::placeholder, .main_form .form-select::placeholder{
+    color: #ffffff;
+}
+
+.login_btn{
+    height: 40px;
+    background-color: #ffffff;
+    color: #e43038;
+    font-weight: 700;
+    border: none;
+    transition: 0.4s ease;
+    font-size: 13px;
+}
+
+.login_btn:hover{
+    background-color: #333333;
+}
+
+.login_right{
+    padding-left: 76px;
+    margin-top: 70px;
+}
+
+.breambo_kit img{
+    position: absolute; 
+    bottom:50px; 
+    left:40%; 
+    height: 380px;
+}
+
+
+/* Reward Points */
+.tot_points{
+    padding: 10px 13px;
+    background-color: #333;
+    z-index: 999999;
+    position: fixed; 
+    right: 0; 
+    top: 35%;
+    border-radius: 10px 0px 0px 10px;
+}
+/* Reward Points */
+
+/* Home page CSS */
+
+.grey_sec{
+    padding-top: 140px;
+    padding-bottom: 130px;
+    background-color: #CFD0D1;
+    margin-top: -70px;
+}
+
+.cer_logos img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px !important;
+}
+
+
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+/*inner_pages styles*/
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+
+/* Dashboard Pages */
+
+.dashboard_forms .form-control, .dashboard_forms .form-select{
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.db_menu_btn button{
+    padding: 20px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #333;
+    transition: 0.4s ease;
+    color: #fff;
+}
+
+.db_menu_btn button:hover{
+    background-color: #e43038;
+    color: #fff;
+}
+
+#calendar{
+    font-size: 14px;
+}
+
+/* Accordion Tabs  */
+
+.tab_buttons .accordion-item{
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 16px;
+}
+
+.tab_buttons .accordion-button{
+    background-color: white;
+    height: 90px;
+    color: #333333;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* .tab_buttons .accordion-button:not(.collapsed){
+    box-shadow: none;
+    background-color: #e43038;
+    color: #fff;
+} */
+
+.tab_buttons .accordion-body{
+    padding: 0px !important;
+    margin-top: 8px;
+}
+
+.tab_buttons .accordion-body .accordion-item{
+    margin-bottom: 9px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.tab_buttons .accordion-body .accordion-button{
+    height: auto;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-item:last-of-type .accordion-button.collapsed{
+    border-radius: 10px;
+}
+
+.tab_buttons .accordion-button::before{
+    content: "";
+    display: block;
+    background-color: #e43038;
+    width: 8px;
+    left: -16px;
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.tab_buttons .accordion-button.collapsed::before{
+    background-color: #000000;
+}
+
+/* New CSS for accordion start*/
+
+.tab_buttons .accordion-button.item_active::before{
+    background-color: #e43038;
+}
+
+.accordion-button:not(.item_active){
+    box-shadow: none;
+}
+
+.tab_buttons .accordion-button:not(.item_active)::before{
+    background-color: #000;
+}
+
+.tab_buttons .item_active{
+    box-shadow: none;
+    background-color: #e43038;
+    color: #fff;
+}
+
+/* New CSS for accordion end */
+
+.accordion_item_no_arrow::after{
+    display: none !important;
+}
+
+.accordion-button:after {
+    font-family: "FontAwesome";
+    font-weight: 300; 
+    content: "\f077";
+    color: #333333;
+    float: right;
+    transform: rotate(180deg) !important;
+    background-image: none !important;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    font-family: "FontAwesome";
+    font-weight: 300; 
+    content: "\f078";
+    color: #fff;
+}
+
+.brembo_pagination .page-link{
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    color: #616161;
+    font-size: 13px;
+    padding: 12px 15px;
+}
+
+.brembo_pagination .disabled .page-link{
+border: 1px solid #e43038;
+background-color: #e43038;
+color: #ffffff;
+}
+
+.rew_box{
+    background-color: #e43038;
+    color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.rew_box:hover{
+    background-color: #333333;
+}
+
+.rew_box img{
+    width: 50px;
+}
+
+/* Data Tables CSS  */
+
+.dashboard_table{
+    font-size: 13px;
+}
+
+.dashboard_table table{
+    text-align: center;
+}
+
+.dashboard_table thead{
+    background-color: #56595B;
+    color: white;
+}
+
+.dashboard_table td, .dashboard_table th{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.dashboard_table td a{
+    font-weight: 600;
+    color: #212529;
+    text-decoration: underline !important;
+}
+
+.dashboard_table thead th{
+    text-align: center !important;
+}
+
+.dashboard_table tbody th, .dashboard_table tbody td{
+    font-weight: 400;
+}
+
+.page-item.active .page-link{
+    background-color: #e43038;
+    border-color: #e43038;
+}
+
+.dashboard_table .page-link{
+    color: #333333;
+}
+
+/* Data Tables CSS  */
+
+.datepicker td, .datepicker th{
+    font-size: 13px;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
+
+.collapse_btn:hover{
+    transition: 0.4s ease;
+    color: #e43038;
+}
+
+.related_documents p a:hover{
+    color: #e43038;
+    transition: 0.4s ease;
+}
+
+.exam_paper ol li, .exam_paper ol li p{
+    font-size: 14px;
+}
+
+.exam_paper ol li{
+    margin-bottom: 15px;
+}
+
+/* Exam Paper CSS start  */
+
+.question_sec{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.quest_num{
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e43038;
+}
+
+/* .quest_num.completed{
+    background-color: #4C8900 !important;
+} */
+
+.single_quest{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.answer_sec{
+    /* padding: 8px;
+    border-radius: 10px;
+    background-color: #FFF1F1; */
+    margin-bottom: 5px;
+}
+
+/* Exam Paper CSS end  */
+
+.exam_result{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.exam_result h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.documents_sec{
+    border-left: 1px solid #d3d3d3;
+}
+
+.war_closed, .war_approved, .war_progress{
+    padding: 5px 10px;
+    width: 100px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.war_closed{
+    background-color: #e43038;
+}
+
+.war_approved{
+    background-color: #125F07;
+}
+
+.war_progress{
+    background-color: #F79600;
+}
+
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+/*inner_pages styles*/
+/***************************************************************************************/
+/***************************************************************************************/
+/***************************************************************************************/
+
+/*****************************/
+/*********footer**************/
+
+
+
+/*****************************/
+/*********footer**************/
+
+
+/**********=========================================********************/
+/**********===============SCROLL TOP=================********************/
+/**********=========================================********************/
+
+.scroll-top-element{
+    background-color: #e43038 !important;
+    right: 15px !important;
+    z-index: 999999999 !important;
+    color: #ffffff !important;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.scroll-top-element:hover{
+    color: #ffffff !important;
+    background-color: #333333 !important;
+}
+
+/**********=========================================********************/
+/**********===============SCROLL TOP=================********************/
+/**********=========================================********************/
+
+/*========================================================================*/
+/*========================================================================*/
+/*========================================================================*/
+/*========================================================================*/
+

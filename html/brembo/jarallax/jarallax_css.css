@@ -1,0 +1,40 @@
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 999999;
+}
+
+
+/* hero block */
+.demo-table {
+    display: table;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(39,35,51,0.8);
+}
+.demo-table-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* gap */
+.demo-gap {
+    padding: 50px;
+    background-color: #272333;
+    text-align: center;
+}
+
+/* full height demo */
+html.demo-full-height,
+html.demo-full-height body,
+html.demo-full-height .jarallax,
+html.demo-full-height .demo-table {
+    height: 100%;
+}
+html.demo-full-height .jarallax,
+html.demo-full-height .demo-table {
+    min-height: 900px;
+}

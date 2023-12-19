@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+
+	.jarviswidget>header h2 {
+		height: 100%;
+		width: auto;
+		display: inline-block;
+		font-size: 10px;
+		position: relative;
+		margin: 0;
+		line-height: 34px;
+		font-weight: 400;
+		letter-spacing: 0;
+		margin-left: 10px;
+	}
+
+		.smart-form .label {
+			display: block;
+			margin-bottom:6px;
+			line-height: 19px;
+			font-weight: 400;
+			font-size: 10px;
+			color: #333;
+			text-align: left;
+			white-space: normal;
+		}
+
+		.smart-form .checkbox, .smart-form .radio {
+			margin-bottom:4px;
+			padding-left:25px;
+			line-height: 25px;
+			color: #404040;
+			cursor: pointer;
+			font-size: 10px;
+		}
+
+		.page-title {
+			margin:8px 0 13px;
+			font-size: 18px;
+			font-weight: 900;
+			text-transform: uppercase;
+			/* background-color: #2e75b5; */
+			display: inline-block;
+			/* padding:10px 25px; */
+			color: #963c2c !important;
+			border-radius:5px;
+			margin-top:12px
+			 !important;
+			/* border-left:5px solid #ffa500; */
+		}
+
+		.smart-form .select select {
+			padding: 5px;
+			font-size: 10px;
+		}
+
+		.input-group-btn>.btn {
+			position: relative;
+			padding:10px;
+			height: auto !important;
+			font-size: 10px;
+		}
+
+		.smart-form footer .btn {
+			float: right;
+			height: 31px;
+			margin: 10px 0 0 5px;
+			padding: 0 22px;
+			font: 300 15px/29px 'Open Sans',Helvetica,Arial,sans-serif;
+			cursor: pointer;
+			font-size: 11px;
+		 }
+			
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+	
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}

@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+
+	
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+    
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+	.check_box_col{
+        min-height: 80px;
+    }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	.f_copy_text {
+		text-align: center;
+		}
+		.footer_row {
+		text-align: center;
+		}
+    
+    .check_box_col{
+        min-height: 0px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+
+	.logo{
+	    width: 64px;
+	}
+
+	.l_logo{
+	    width: 69px;
+	}
+
+	.lang_p{
+		margin-top: 0px !important;
+		margin-bottom: 20px !important;
+		text-align: right; !important;
+	}
+
+	.save_btn {
+	    font-size: 11px;
+	    padding: 12px 15px;
+	}
+
+	.footer_row .no_padding{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header_row .main_con{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.bg_row h1{
+	    font-size: 30px;
+	}
+
+	.bg_row .no_padding{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.white_box{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.f_copy_text {
+	    text-align: center;
+	}
+
+	.footer_row{
+		text-align: center;
+	}
+
+	.sub_btn{
+		display: inline-block;
+		/* margin-left: auto; */
+		/* margin-right: auto; */
+	}
+
+	.sub_btn_col{
+		text-align: center;
+	}
+
+	.logo_text_s{
+	    font-size: 15px;
+	}
+
+	.add_margin_mobile{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.otp_btns_col .sub_btn{
+		display: inline-block;
+	}
+
+	.otp_btns_col{
+		text-align: center;
+	}
+
+	.com_status_col{
+	    padding-left: 15px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}

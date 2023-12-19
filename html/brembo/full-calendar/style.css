@@ -1,0 +1,40 @@
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 190px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.filter {
+  grid-area: 1 / 2 / 2 / 3;
+  margin: 6em 0 0 1em;
+}
+.event_filter_wrapper {
+  margin: .5em 0;
+}
+
+#calendar {
+  margin: 2em 0 0 0;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.festival .fc-time {
+  display: none;
+}
+
+
+.fc-day-grid-event .fc-content {
+  white-space: normal;
+}
+
+a.fc-event-past {
+  background-color: grey !important; 
+  border: none;
+}
+
+a.fc-event.hidden {
+  display: none;
+}

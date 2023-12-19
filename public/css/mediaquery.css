@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1536px) {
+  .serv_detail_card a {
+    min-height: 178px;
+}
+
+.breambo_kit img{
+  position: absolute; 
+  bottom:50px; 
+  left:40%; 
+  height: 300px;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+  .login_left{
+    padding-right: 100px;
+  }
+
+  .breambo_kit img{ 
+    height: 260px;
+  }
+
+  .login_right {
+    padding-left: 50px;
+  }
+
+  .cer_logos img {
+    height: 120px;
+    width: 120px!important;
+  }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+    
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    h2{
+      font-size: 18px;
+    }
+    h1{
+      font-size: 22px;
+    }
+    .bg_none{
+      background-image: none !important;
+    }
+
+    .header_left_img img{
+      width: 100px !important;
+    }
+
+    .grey_sec{
+      padding-top: 110px;
+      padding-bottom: 100px;
+    }
+
+    .login_left{
+      padding-right: 0px;
+    }
+
+    .grey_sec .border_right{
+      border: none;
+    }
+
+    .documents_sec{
+      border-left: 0px;
+      margin-top: 10px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 768px) {
+  .inner_header .header_left_img img{
+    width: 115px !important;
+  }
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+  .card_padding_mob{
+    padding: 40px;
+  }
+
+  .header_title{
+    margin-top: 15px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+
+  .top_logo img{
+    width: 180px;
+  }
+  
+  .padding_sec{
+    padding: 28px;
+  }
+
+  .inner_header .top_logo img {
+    width: 160px;
+  }
+
+  .cer_logos img {
+    height: 90px;
+    width: 90px!important;
+  }
+
+  .big_caps{
+    font-size: 22px;
+  }
+
+  .login_left{
+    height: auto;
+  }
+
+  .login_left{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .tot_points{
+    padding: 8px 10px;
+  }
+
+  .tot_points h3{
+    font-size: 14px;
+  }
+
+  .tot_points p{
+    font-size: 11px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+	
+
+	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+	
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}
